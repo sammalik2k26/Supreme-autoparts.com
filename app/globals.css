@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Prevent images from exceeding their container and becoming enlarged */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Prevent SVGs from flex-shrinking and breaking layout */
+svg {
+  flex-shrink: 0;
+}
