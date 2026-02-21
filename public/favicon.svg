@@ -1,26 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 110" width="110" height="110">
   <defs>
-    <linearGradient id="rGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#E8250B"/>
-      <stop offset="100%" style="stop-color:#C41E0A"/>
+    <linearGradient id="goldG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4AF37"/>
+      <stop offset="100%" style="stop-color:#B29026"/>
     </linearGradient>
   </defs>
 
-  <!-- Stylized S icon -->
-  <g transform="translate(5, 0)">
-    <!-- Top stripe of S -->
-    <polygon points="28,0 90,0 82,18 20,18" fill="#111111"/>
-    <!-- Middle connector (diagonal) -->
-    <polygon points="20,18 28,0 18,26 10,44" fill="#111111"/>
-    <!-- Middle stripe of S -->
-    <polygon points="10,41 72,41 64,59 2,59" fill="url(#rGrad)"/>
-    <!-- Bottom connector -->
-    <polygon points="64,59 72,41 80,59 72,77" fill="url(#rGrad)"/>
-    <!-- Bottom stripe of S -->
-    <polygon points="8,82 70,82 62,100 0,100" fill="#111111"/>
-    <!-- Bottom-right connector -->
-    <polygon points="72,77 80,59 80,77 72,82 70,82" fill="#111111"/>
-    <!-- Top-right finish -->
-    <polygon points="90,0 90,18 82,18" fill="#111111"/>
-  </g>
+  <!-- SHIELD ICON -->
+  <!-- Outer shield (black) -->
+  <polygon points="55,2 103,14 97,72 55,107 13,72 7,14" fill="#0F0F0F"/>
+  <!-- Gold border -->
+  <polygon points="55,7 98,18 92,68 55,100 18,68 12,18" fill="url(#goldG)"/>
+  <!-- Inner core (black) -->
+  <polygon points="55,12 93,22 87,64 55,92 23,64 17,22" fill="#0F0F0F"/>
+
+  <!-- Crown -->
+  <polygon points="27,60 25,40 31,28 41,43 55,22 69,43 75,28 81,40 79,60"
+           fill="url(#goldG)"/>
+  <!-- Crown jewels -->
+  <circle cx="31" cy="30" r="4" fill="#0F0F0F"/><circle cx="31" cy="30" r="2" fill="#D4AF37"/>
+  <circle cx="55" cy="24" r="4" fill="#0F0F0F"/><circle cx="55" cy="24" r="2" fill="#D4AF37"/>
+  <circle cx="75" cy="30" r="4" fill="#0F0F0F"/><circle cx="75" cy="30" r="2" fill="#D4AF37"/>
+  <!-- Crown base band -->
+  <rect x="27" y="60" width="56" height="8" rx="1" fill="url(#goldG)"/>
+  <rect x="29" y="62" width="52" height="4" rx="1" fill="#0F0F0F"/>
+
+  <!-- S letter -->
+  <text x="55" y="86" font-family="'Arial Black','Impact',sans-serif" font-weight="900" font-size="24" fill="#D4AF37" text-anchor="middle">S</text>
 </svg>
