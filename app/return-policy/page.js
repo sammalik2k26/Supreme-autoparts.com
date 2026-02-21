@@ -7,8 +7,8 @@ export const metadata = {
 
 export default function ReturnPolicyPage() {
   return (
-    <div className="min-h-screen bg-gray-50">
-      <header className="bg-white border-b border-gray-200">
+    <div className="min-h-screen bg-[#0F0F0F]">
+      <header className="bg-[#0F0F0F] border-b border-[#D4AF37]/20">
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center">
             <img src="/logo.svg" alt="Supreme Auto Parts" className="h-10 md:h-12 w-auto" />

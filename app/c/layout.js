@@ -2,8 +2,8 @@ import Link from 'next/link'
 
 export default function CategoryLayout({ children }) {
   return (
-    <div className="min-h-screen bg-gray-50">
-      <header className="w-full bg-white shadow-sm border-b border-gray-200">
+    <div className="min-h-screen bg-[#0F0F0F]">
+      <header className="w-full bg-[#0F0F0F] border-b border-gold/20">
         <div className="flex items-center justify-between px-4 py-4 max-w-7xl mx-auto">
           <Link href="/" className="flex items-center">
             <img src="/logo.svg" alt="Supreme Auto Parts" className="h-10 md:h-12 w-auto" style={{filter: 'none'}} />

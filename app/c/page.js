@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function CategoriesIndexPage() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-[#0F0F0F]">
       <div className="max-w-7xl mx-auto px-4 py-12">
         <Link href="/" className="text-[#D4AF37] hover:underline mb-6 inline-block">
           ← Back to home
