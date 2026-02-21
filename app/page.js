@@ -427,13 +427,11 @@ export default function Home() {
                 >
                   <div className="aspect-square p-4 flex flex-col">
                     <div className="flex-1 flex items-center justify-center">
-                      <div className="bg-white rounded-xl p-3 group-hover:bg-gray-100 transition-colors">
-                        <img
-                          src={cat.img}
-                          alt={cat.name}
-                          className="h-16 w-16 object-contain group-hover:scale-110 transition-transform duration-300"
-                        />
-                      </div>
+                      <img
+                        src={cat.img}
+                        alt={cat.name}
+                        className="max-h-24 max-w-full object-contain group-hover:scale-110 transition-transform duration-300"
+                      />
                     </div>
                     <div className="mt-4">
                       <h3 className="text-white font-bold text-sm text-center group-hover:text-gold transition-colors">{cat.name}</h3>
