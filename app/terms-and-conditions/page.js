@@ -121,7 +121,7 @@ export default function TermsPage() {
           <div className="grid sm:grid-cols-2 gap-3">
             {[
               { icon: '📋', text: 'All orders are subject to acceptance and availability' },
-              { icon: '💷', text: 'Prices are in GBP unless otherwise stated' },
+              { icon: '💵', text: 'Prices are in USD unless otherwise stated' },
               { icon: '✅', text: 'Payment must be received before order processing' },
               { icon: '💳', text: 'We accept major credit cards and secure payment methods' }
             ].map((item, i) => (

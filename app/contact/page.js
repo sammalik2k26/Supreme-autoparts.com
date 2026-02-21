@@ -72,14 +72,14 @@ export default function ContactPage() {
             </a>
 
             {/* Phone */}
-            <a href="tel:+441234567890" className="group bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition-all hover:-translate-y-1">
+            <a href="tel:+16145551234" className="group bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition-all hover:-translate-y-1">
               <div className="w-14 h-14 bg-gradient-to-br from-emerald-500 to-green-600 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                 <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
               </div>
               <h3 className="text-gray-900 font-bold text-lg mb-1">Call Us</h3>
-              <p className="text-emerald-600 text-sm font-medium">+44 (0) 123 456 7890</p>
+              <p className="text-emerald-600 text-sm font-medium">(614) 555-1234</p>
             </a>
 
             {/* Live Chat */}
@@ -106,7 +106,7 @@ export default function ContactPage() {
               <div className="bg-white rounded-2xl shadow-lg p-6 overflow-hidden">
                 <div className="aspect-video rounded-xl mb-4 overflow-hidden">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d155323.67754173498!2d-2.035829!3d52.48624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870942d1b417173%3A0xca81fef0aeee7998!2sBirmingham%2C%20UK!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d194469.26153654573!2d-83.1545!3d39.9612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883889c1b990de71%3A0xe43266f8cfb1b533!2sColumbus%2C%20OH!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
@@ -118,12 +118,12 @@ export default function ContactPage() {
                 </div>
                 <h3 className="text-gray-900 font-bold mb-2">Our Location</h3>
                 <p className="text-gray-600 text-sm">
-                  123 Auto Parts Way<br />
-                  Birmingham, B1 1AA<br />
-                  United Kingdom
+                  1250 Polaris Parkway<br />
+                  Columbus, OH 43240<br />
+                  United States
                 </p>
                 <a 
-                  href="https://www.google.com/maps/search/Birmingham+UK" 
+                  href="https://www.google.com/maps/search/Columbus+OH" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 mt-3 text-[#ea290f] hover:text-orange-600 text-sm font-medium transition-colors"
@@ -232,7 +232,7 @@ export default function ContactPage() {
                         name="phone"
                         value={formData.phone}
                         onChange={handleChange}
-                        placeholder="+44 123 456 7890"
+                        placeholder="(614) 555-1234"
                         className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-[#ea290f] focus:border-[#ea290f] outline-none transition-all"
                       />
                     </div>
@@ -332,8 +332,8 @@ export default function ContactPage() {
           </div>
           <div className="grid md:grid-cols-2 gap-4">
             {[
-              { q: 'What are your shipping times?', a: 'Standard delivery is 3-5 business days. Express delivery is 1-2 business days for most UK locations.' },
-              { q: 'Do you offer international shipping?', a: 'Currently, we only ship within the United Kingdom. International shipping coming soon!' },
+              { q: 'What are your shipping times?', a: 'Standard delivery is 3-5 business days. Express delivery is 1-2 business days for most US locations.' },
+              { q: 'Do you offer international shipping?', a: 'Currently, we only ship within the United States. International shipping coming soon!' },
               { q: 'How can I track my order?', a: 'Visit our Track Order page with your order number and email address.' },
               { q: 'What is your return policy?', a: 'We offer 30-day hassle-free returns on unused items in original packaging.' }
             ].map((faq, i) => (

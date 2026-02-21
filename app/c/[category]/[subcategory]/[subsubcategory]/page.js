@@ -110,9 +110,9 @@ export default function SubSubcategoryPage({ params }) {
               <p className="text-xs text-gray-500 mt-1">{product.note}</p>
 
               <div className="mt-3 flex items-baseline gap-2">
-                <span className="text-lg font-bold text-[#ea290f]">£{product.price.toFixed(2)}</span>
+                <span className="text-lg font-bold text-[#ea290f]">${product.price.toFixed(2)}</span>
                 {product.originalPrice > product.price && (
-                  <span className="text-sm text-gray-400 line-through">£{product.originalPrice.toFixed(2)}</span>
+                  <span className="text-sm text-gray-400 line-through">${product.originalPrice.toFixed(2)}</span>
                 )}
               </div>
 
