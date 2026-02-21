@@ -13,7 +13,7 @@ export default function DisclaimerPage() {
           <Link href="/" className="flex items-center">
             <img src="/logo.svg" alt="Supreme Auto Parts" className="h-10 md:h-12 w-auto" />
           </Link>
-          <Link href="/" className="text-[#ea290f] hover:underline font-medium">← Back to Home</Link>
+          <Link href="/" className="text-[#D4AF37] hover:underline font-medium">← Back to Home</Link>
         </div>
       </header>
 
@@ -172,13 +172,13 @@ export default function DisclaimerPage() {
         </div>
 
         {/* Contact Section */}
-        <div className="bg-gradient-to-r from-[#ea290f] to-[#c8240d] rounded-2xl shadow-lg p-8 text-white text-center">
+        <div className="bg-gradient-to-r from-[#D4AF37] to-[#c8240d] rounded-2xl shadow-lg p-8 text-white text-center">
           <svg className="w-12 h-12 mx-auto mb-4 opacity-90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
           <h2 className="text-2xl font-bold mb-2">Have Questions?</h2>
           <p className="text-white/80 mb-4">Our team is here to help clarify any concerns.</p>
-          <a href="mailto:info@supreme-autoparts.com" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-[#ea290f] font-semibold rounded-lg hover:bg-gray-100 transition-colors">
+          <a href="mailto:info@supreme-autoparts.com" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-[#D4AF37] font-semibold rounded-lg hover:bg-gray-100 transition-colors">
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
             </svg>

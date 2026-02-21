@@ -42,9 +42,9 @@ export default function SubcategoryPage({ params }) {
   return (
     <div className="max-w-7xl mx-auto px-4 py-6 md:px-6">
       <nav className="text-sm text-gray-600 mb-6" aria-label="Breadcrumb">
-        <Link href="/" className="text-[#ea290f] hover:underline">Home</Link>
+        <Link href="/" className="text-[#D4AF37] hover:underline">Home</Link>
         <span className="mx-2">/</span>
-        <Link href={`/c/${category}`} className="text-[#ea290f] hover:underline">{catData.name}</Link>
+        <Link href={`/c/${category}`} className="text-[#D4AF37] hover:underline">{catData.name}</Link>
         <span className="mx-2">/</span>
         <span className="text-gray-900">{subName}</span>
       </nav>
@@ -60,7 +60,7 @@ export default function SubcategoryPage({ params }) {
               <Link
                 key={subSub}
                 href={`/c/${category}/${subcategory}/${toSlug(subSub)}`}
-                className="p-4 bg-white border border-gray-200 rounded-lg hover:border-[#ea290f] hover:shadow-md transition-all"
+                className="p-4 bg-white border border-gray-200 rounded-lg hover:border-[#D4AF37] hover:shadow-md transition-all"
               >
                 {subSub}
               </Link>
@@ -70,14 +70,14 @@ export default function SubcategoryPage({ params }) {
       ) : (
         <>
           <div className="flex flex-wrap gap-2 mb-6">
-            <select className="px-4 py-2 bg-white border border-gray-300 rounded text-sm text-gray-700 focus:ring-2 focus:ring-[#ea290f] focus:border-[#ea290f] outline-none">
+            <select className="px-4 py-2 bg-white border border-gray-300 rounded text-sm text-gray-700 focus:ring-2 focus:ring-[#D4AF37] focus:border-[#D4AF37] outline-none">
               <option>Delivery Speed</option>
             </select>
-            <select className="px-4 py-2 bg-white border border-gray-300 rounded text-sm text-gray-700 focus:ring-2 focus:ring-[#ea290f] focus:border-[#ea290f] outline-none">
+            <select className="px-4 py-2 bg-white border border-gray-300 rounded text-sm text-gray-700 focus:ring-2 focus:ring-[#D4AF37] focus:border-[#D4AF37] outline-none">
               <option>Price: Low to High</option>
               <option>Price: High to Low</option>
             </select>
-            <select className="px-4 py-2 bg-white border border-gray-300 rounded text-sm text-gray-700 focus:ring-2 focus:ring-[#ea290f] focus:border-[#ea290f] outline-none">
+            <select className="px-4 py-2 bg-white border border-gray-300 rounded text-sm text-gray-700 focus:ring-2 focus:ring-[#D4AF37] focus:border-[#D4AF37] outline-none">
               <option>Part Grade</option>
             </select>
           </div>
@@ -88,7 +88,7 @@ export default function SubcategoryPage({ params }) {
             {products.map((product) => (
               <article
                 key={product.sku}
-                className="flex flex-col bg-white border border-gray-200 rounded-lg overflow-hidden hover:border-[#ea290f] hover:shadow-md transition-all"
+                className="flex flex-col bg-white border border-gray-200 rounded-lg overflow-hidden hover:border-[#D4AF37] hover:shadow-md transition-all"
               >
                 <div className="aspect-square bg-gray-100 flex items-center justify-center overflow-hidden">
                   <img
@@ -104,7 +104,7 @@ export default function SubcategoryPage({ params }) {
                   <h2 className="font-semibold text-gray-900 mt-1 line-clamp-2">{product.name}</h2>
                   <p className="text-xs text-gray-500 mt-1">{product.note}</p>
                   <div className="mt-3 flex items-baseline gap-2">
-                    <span className="text-lg font-bold text-[#ea290f]">${product.price.toFixed(2)}</span>
+                    <span className="text-lg font-bold text-[#D4AF37]">${product.price.toFixed(2)}</span>
                     {product.originalPrice > product.price && (
                       <span className="text-sm text-gray-400 line-through">${product.originalPrice.toFixed(2)}</span>
                     )}
@@ -115,7 +115,7 @@ export default function SubcategoryPage({ params }) {
                   </div>
                   <Link
                     href={`/p/${product.sku}`}
-                    className="mt-4 w-full py-2.5 text-center bg-[#ea290f] hover:bg-[#c8240d] text-white font-medium rounded text-sm transition-colors"
+                    className="mt-4 w-full py-2.5 text-center bg-[#D4AF37] hover:bg-[#c8240d] text-white font-medium rounded text-sm transition-colors"
                   >
                     View Details
                   </Link>
@@ -127,7 +127,7 @@ export default function SubcategoryPage({ params }) {
       )}
 
       <div className="mt-8">
-        <Link href={`/c/${category}`} className="text-[#ea290f] hover:underline inline-flex items-center gap-1">
+        <Link href={`/c/${category}`} className="text-[#D4AF37] hover:underline inline-flex items-center gap-1">
           ← Back to {catData.name}
         </Link>
       </div>

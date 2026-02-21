@@ -14,7 +14,7 @@ export default function ProductPage({ params }) {
   return (
     <div className="max-w-7xl mx-auto px-4 py-6 md:px-6">
       <nav className="text-sm text-gray-600 mb-6">
-        <Link href="/" className="text-[#ea290f] hover:underline">Home</Link>
+        <Link href="/" className="text-[#D4AF37] hover:underline">Home</Link>
         <span className="mx-2">/</span>
         <span className="text-gray-900">Product {sku}</span>
       </nav>
@@ -24,7 +24,7 @@ export default function ProductPage({ params }) {
         </div>
         <h1 className="text-2xl font-bold text-gray-900 mb-2">Product {sku}</h1>
         <p className="text-gray-600 mb-4">Product details page. Add to cart and fitment info would go here.</p>
-        <Link href="/c" className="text-[#ea290f] hover:underline">
+        <Link href="/c" className="text-[#D4AF37] hover:underline">
           ← Continue shopping
         </Link>
       </div>

@@ -6,7 +6,7 @@ export default function CategoryLayout({ children }) {
       <header className="w-full bg-white shadow-sm border-b border-gray-200">
         <div className="flex items-center justify-between px-4 py-4 max-w-7xl mx-auto">
           <Link href="/" className="flex items-center">
-            <img src="/logo.svg" alt="Supreme Auto Parts" className="h-10 md:h-12 w-auto" />
+            <img src="/logo.svg" alt="Supreme Auto Parts" className="h-10 md:h-12 w-auto" style={{filter: 'none'}} />
           </Link>
           <div className="flex items-center gap-2">
             <Link
@@ -23,7 +23,7 @@ export default function CategoryLayout({ children }) {
         </div>
         <div className="border-t border-gray-100 px-4 py-3">
           <div className="max-w-7xl mx-auto">
-            <Link href="/" className="text-[#ea290f] hover:underline font-medium">
+            <Link href="/" className="text-[#D4AF37] hover:underline font-medium">
               ← Back to Home
             </Link>
           </div>

@@ -24,7 +24,7 @@ export default function CategoryPage({ params }) {
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 py-12">
-        <Link href="/#homepage-categories" className="text-[#ea290f] hover:underline mb-6 inline-block">
+        <Link href="/#homepage-categories" className="text-[#D4AF37] hover:underline mb-6 inline-block">
           ← Back to categories
         </Link>
         <h1 className="text-3xl font-bold text-gray-900 mb-8">{data.name}</h1>
@@ -33,7 +33,7 @@ export default function CategoryPage({ params }) {
             <Link
               key={sub}
               href={`/c/${category}/${toSlug(sub)}`}
-              className="p-4 bg-white border border-gray-200 rounded-lg hover:border-[#ea290f] hover:shadow-md transition-all"
+              className="p-4 bg-white border border-gray-200 rounded-lg hover:border-[#D4AF37] hover:shadow-md transition-all"
             >
               {sub}
             </Link>

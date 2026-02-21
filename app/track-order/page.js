@@ -19,7 +19,7 @@ export default function TrackOrderPage() {
           <Link href="/" className="flex items-center">
             <img src="/logo.svg" alt="Supreme Auto Parts" className="h-10 md:h-12 w-auto" />
           </Link>
-          <Link href="/" className="text-[#ea290f] hover:underline font-medium">← Back to Home</Link>
+          <Link href="/" className="text-[#D4AF37] hover:underline font-medium">← Back to Home</Link>
         </div>
       </header>
 
@@ -167,7 +167,7 @@ export default function TrackOrderPage() {
             </div>
 
             {/* Contact Support */}
-            <div className="bg-gradient-to-r from-[#ea290f] to-[#c8240d] rounded-2xl p-6 text-white">
+            <div className="bg-gradient-to-r from-[#D4AF37] to-[#c8240d] rounded-2xl p-6 text-white">
               <h3 className="font-bold mb-2 flex items-center gap-2">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />

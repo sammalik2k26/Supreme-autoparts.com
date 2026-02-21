@@ -33,7 +33,7 @@ export default function BlogPage() {
           <Link href="/" className="flex items-center">
             <img src="/logo.svg" alt="Supreme Auto Parts" className="h-10 md:h-12 w-auto" />
           </Link>
-          <Link href="/" className="text-[#ea290f] hover:underline font-medium">← Back to Home</Link>
+          <Link href="/" className="text-[#D4AF37] hover:underline font-medium">← Back to Home</Link>
         </div>
       </header>
 
@@ -56,7 +56,7 @@ export default function BlogPage() {
           {categories.map((cat, i) => (
             <button 
               key={i} 
-              className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${i === 0 ? 'bg-[#ea290f] text-white' : 'bg-white text-gray-600 hover:bg-gray-100 shadow-sm'}`}
+              className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${i === 0 ? 'bg-[#D4AF37] text-white' : 'bg-white text-gray-600 hover:bg-gray-100 shadow-sm'}`}
             >
               {cat}
             </button>
@@ -64,7 +64,7 @@ export default function BlogPage() {
         </div>
 
         {/* Featured Post */}
-        <div className="bg-gradient-to-r from-[#ea290f] to-[#c8240d] rounded-2xl shadow-xl p-8 mb-10 text-white">
+        <div className="bg-gradient-to-r from-[#D4AF37] to-[#c8240d] rounded-2xl shadow-xl p-8 mb-10 text-white">
           <div className="flex flex-col md:flex-row gap-6 items-center">
             <div className="shrink-0 w-24 h-24 bg-white/10 rounded-2xl flex items-center justify-center">
               <span className="text-5xl">{featuredPost.image}</span>
@@ -79,7 +79,7 @@ export default function BlogPage() {
               <p className="text-white/80 mb-4">{featuredPost.excerpt}</p>
               <div className="flex items-center gap-4 justify-center md:justify-start">
                 <span className="text-white/60 text-sm">{featuredPost.date}</span>
-                <button className="inline-flex items-center gap-2 px-4 py-2 bg-white text-[#ea290f] font-semibold rounded-lg hover:bg-gray-100 transition-colors text-sm">
+                <button className="inline-flex items-center gap-2 px-4 py-2 bg-white text-[#D4AF37] font-semibold rounded-lg hover:bg-gray-100 transition-colors text-sm">
                   Read Article
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -100,15 +100,15 @@ export default function BlogPage() {
                     {post.icon}
                   </span>
                   <div>
-                    <span className="text-xs font-medium text-[#ea290f] bg-red-50 px-2 py-1 rounded-full">{post.category}</span>
+                    <span className="text-xs font-medium text-[#D4AF37] bg-red-50 px-2 py-1 rounded-full">{post.category}</span>
                     <p className="text-xs text-gray-400 mt-1">{post.readTime}</p>
                   </div>
                 </div>
-                <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-[#ea290f] transition-colors">{post.title}</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-[#D4AF37] transition-colors">{post.title}</h3>
                 <p className="text-gray-600 text-sm mb-4 line-clamp-2">{post.excerpt}</p>
                 <div className="flex items-center justify-between">
                   <span className="text-xs text-gray-400">{post.date}</span>
-                  <button className="text-[#ea290f] font-medium text-sm hover:underline inline-flex items-center gap-1">
+                  <button className="text-[#D4AF37] font-medium text-sm hover:underline inline-flex items-center gap-1">
                     Read more
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -130,9 +130,9 @@ export default function BlogPage() {
               <input 
                 type="email" 
                 placeholder="Enter your email" 
-                className="flex-1 px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-[#ea290f]"
+                className="flex-1 px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-[#D4AF37]"
               />
-              <button className="px-6 py-3 bg-[#ea290f] hover:bg-[#c8240d] rounded-xl font-semibold transition-colors">
+              <button className="px-6 py-3 bg-[#D4AF37] hover:bg-[#c8240d] rounded-xl font-semibold transition-colors">
                 Subscribe
               </button>
             </div>

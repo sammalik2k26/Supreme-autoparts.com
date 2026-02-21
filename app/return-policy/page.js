@@ -13,7 +13,7 @@ export default function ReturnPolicyPage() {
           <Link href="/" className="flex items-center">
             <img src="/logo.svg" alt="Supreme Auto Parts" className="h-10 md:h-12 w-auto" />
           </Link>
-          <Link href="/" className="text-[#ea290f] hover:underline font-medium">← Back to Home</Link>
+          <Link href="/" className="text-[#D4AF37] hover:underline font-medium">← Back to Home</Link>
         </div>
       </header>
 
@@ -178,13 +178,13 @@ export default function ReturnPolicyPage() {
         </div>
 
         {/* Contact Section */}
-        <div className="bg-gradient-to-r from-[#ea290f] to-[#c8240d] rounded-2xl shadow-lg p-8 text-white text-center">
+        <div className="bg-gradient-to-r from-[#D4AF37] to-[#c8240d] rounded-2xl shadow-lg p-8 text-white text-center">
           <svg className="w-12 h-12 mx-auto mb-4 opacity-90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
           </svg>
           <h2 className="text-2xl font-bold mb-2">Need Help With a Return?</h2>
           <p className="text-white/80 mb-4">Our returns team is ready to assist you.</p>
-          <a href="mailto:info@supreme-autoparts.com" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-[#ea290f] font-semibold rounded-lg hover:bg-gray-100 transition-colors">
+          <a href="mailto:info@supreme-autoparts.com" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-[#D4AF37] font-semibold rounded-lg hover:bg-gray-100 transition-colors">
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
             </svg>

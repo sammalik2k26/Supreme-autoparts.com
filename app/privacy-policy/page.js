@@ -13,7 +13,7 @@ export default function PrivacyPolicyPage() {
           <Link href="/" className="flex items-center">
             <img src="/logo.svg" alt="Supreme Auto Parts" className="h-10 md:h-12 w-auto" />
           </Link>
-          <Link href="/" className="text-[#ea290f] hover:underline font-medium">← Back to Home</Link>
+          <Link href="/" className="text-[#D4AF37] hover:underline font-medium">← Back to Home</Link>
         </div>
       </header>
 
@@ -56,8 +56,8 @@ export default function PrivacyPolicyPage() {
         {/* Section 1 */}
         <div className="bg-white rounded-2xl shadow-lg p-8 mb-6 hover:shadow-xl transition-shadow">
           <div className="flex items-start gap-4 mb-4">
-            <div className="shrink-0 w-10 h-10 bg-[#ea290f]/10 rounded-lg flex items-center justify-center">
-              <svg className="w-5 h-5 text-[#ea290f]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="shrink-0 w-10 h-10 bg-[#D4AF37]/10 rounded-lg flex items-center justify-center">
+              <svg className="w-5 h-5 text-[#D4AF37]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
               </svg>
             </div>
@@ -79,8 +79,8 @@ export default function PrivacyPolicyPage() {
         {/* Section 2 */}
         <div className="bg-white rounded-2xl shadow-lg p-8 mb-6 hover:shadow-xl transition-shadow">
           <div className="flex items-start gap-4 mb-4">
-            <div className="shrink-0 w-10 h-10 bg-[#ea290f]/10 rounded-lg flex items-center justify-center">
-              <svg className="w-5 h-5 text-[#ea290f]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="shrink-0 w-10 h-10 bg-[#D4AF37]/10 rounded-lg flex items-center justify-center">
+              <svg className="w-5 h-5 text-[#D4AF37]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
@@ -91,7 +91,7 @@ export default function PrivacyPolicyPage() {
           <div className="space-y-2">
             {['Process and fulfill your orders', 'Send order confirmations and shipping updates', 'Provide customer support', 'Improve our products and services', 'Send promotional communications (with your consent)'].map((item, i) => (
               <div key={i} className="flex items-center gap-3 text-gray-600">
-                <span className="shrink-0 w-6 h-6 bg-[#ea290f] text-white rounded-full flex items-center justify-center text-xs font-bold">{i + 1}</span>
+                <span className="shrink-0 w-6 h-6 bg-[#D4AF37] text-white rounded-full flex items-center justify-center text-xs font-bold">{i + 1}</span>
                 <span>{item}</span>
               </div>
             ))}
@@ -101,8 +101,8 @@ export default function PrivacyPolicyPage() {
         {/* Section 3 */}
         <div className="bg-white rounded-2xl shadow-lg p-8 mb-6 hover:shadow-xl transition-shadow">
           <div className="flex items-start gap-4 mb-4">
-            <div className="shrink-0 w-10 h-10 bg-[#ea290f]/10 rounded-lg flex items-center justify-center">
-              <svg className="w-5 h-5 text-[#ea290f]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="shrink-0 w-10 h-10 bg-[#D4AF37]/10 rounded-lg flex items-center justify-center">
+              <svg className="w-5 h-5 text-[#D4AF37]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
               </svg>
             </div>
@@ -135,8 +135,8 @@ export default function PrivacyPolicyPage() {
         {/* Section 4 */}
         <div className="bg-white rounded-2xl shadow-lg p-8 mb-6 hover:shadow-xl transition-shadow">
           <div className="flex items-start gap-4 mb-4">
-            <div className="shrink-0 w-10 h-10 bg-[#ea290f]/10 rounded-lg flex items-center justify-center">
-              <svg className="w-5 h-5 text-[#ea290f]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="shrink-0 w-10 h-10 bg-[#D4AF37]/10 rounded-lg flex items-center justify-center">
+              <svg className="w-5 h-5 text-[#D4AF37]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
               </svg>
             </div>
@@ -161,8 +161,8 @@ export default function PrivacyPolicyPage() {
         {/* Section 5 */}
         <div className="bg-white rounded-2xl shadow-lg p-8 mb-6 hover:shadow-xl transition-shadow">
           <div className="flex items-start gap-4 mb-4">
-            <div className="shrink-0 w-10 h-10 bg-[#ea290f]/10 rounded-lg flex items-center justify-center">
-              <svg className="w-5 h-5 text-[#ea290f]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="shrink-0 w-10 h-10 bg-[#D4AF37]/10 rounded-lg flex items-center justify-center">
+              <svg className="w-5 h-5 text-[#D4AF37]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
             </div>
@@ -177,7 +177,7 @@ export default function PrivacyPolicyPage() {
               { title: 'Opt-out', desc: 'Unsubscribe from marketing' }
             ].map((item, i) => (
               <div key={i} className="flex items-center gap-3 p-3 bg-gray-50 rounded-xl">
-                <div className="w-10 h-10 bg-[#ea290f] rounded-lg flex items-center justify-center">
+                <div className="w-10 h-10 bg-[#D4AF37] rounded-lg flex items-center justify-center">
                   <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
@@ -192,13 +192,13 @@ export default function PrivacyPolicyPage() {
         </div>
 
         {/* Contact Section */}
-        <div className="bg-gradient-to-r from-[#ea290f] to-[#c8240d] rounded-2xl shadow-lg p-8 text-white text-center">
+        <div className="bg-gradient-to-r from-[#D4AF37] to-[#c8240d] rounded-2xl shadow-lg p-8 text-white text-center">
           <svg className="w-12 h-12 mx-auto mb-4 opacity-90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
           </svg>
           <h2 className="text-2xl font-bold mb-2">Questions About Privacy?</h2>
           <p className="text-white/80 mb-4">We're here to help with any privacy-related concerns.</p>
-          <a href="mailto:info@supreme-autoparts.com" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-[#ea290f] font-semibold rounded-lg hover:bg-gray-100 transition-colors">
+          <a href="mailto:info@supreme-autoparts.com" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-[#D4AF37] font-semibold rounded-lg hover:bg-gray-100 transition-colors">
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
             </svg>

@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
         <link rel="shortcut icon" href="/favicon.svg" />
         <link rel="apple-touch-icon" href="/favicon.svg" />
       </head>
-      <body className="antialiased bg-gray-50">{children}</body>
+      <body className="antialiased bg-[#0F0F0F]">{children}</body>
     </html>
   )
 }

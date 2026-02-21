@@ -12,7 +12,7 @@ export default function BrandsPage() {
           <Link href="/" className="flex items-center">
             <img src="/logo.svg" alt="Supreme Auto Parts" className="h-10 md:h-12 w-auto" />
           </Link>
-          <Link href="/" className="text-[#ea290f] hover:underline font-medium">← Back to Home</Link>
+          <Link href="/" className="text-[#D4AF37] hover:underline font-medium">← Back to Home</Link>
         </div>
       </header>
 
@@ -24,7 +24,7 @@ export default function BrandsPage() {
             <span className="text-sm font-medium">50+ Trusted Brands</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Shop by <span className="text-[#ea290f]">Brand</span>
+            Shop by <span className="text-[#D4AF37]">Brand</span>
           </h1>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
             Find quality auto parts for your vehicle from the world's leading automotive manufacturers. 
@@ -43,7 +43,7 @@ export default function BrandsPage() {
             <input
               type="text"
               placeholder="Search brands..."
-              className="w-full pl-12 pr-4 py-3 bg-gray-100 border-0 rounded-lg text-gray-900 placeholder-gray-500 focus:ring-2 focus:ring-[#ea290f] outline-none"
+              className="w-full pl-12 pr-4 py-3 bg-gray-100 border-0 rounded-lg text-gray-900 placeholder-gray-500 focus:ring-2 focus:ring-[#D4AF37] outline-none"
             />
           </div>
         </div>
@@ -56,7 +56,7 @@ export default function BrandsPage() {
             <Link
               key={make}
               href={`/?make=${encodeURIComponent(make)}`}
-              className="group bg-white rounded-xl p-6 shadow-sm hover:shadow-lg border border-gray-100 hover:border-[#ea290f]/30 transition-all duration-300 flex flex-col items-center justify-center gap-3 hover:-translate-y-1"
+              className="group bg-white rounded-xl p-6 shadow-sm hover:shadow-lg border border-gray-100 hover:border-[#D4AF37]/30 transition-all duration-300 flex flex-col items-center justify-center gap-3 hover:-translate-y-1"
             >
               <div className="w-16 h-16 flex items-center justify-center">
                 <img
@@ -65,7 +65,7 @@ export default function BrandsPage() {
                   className="max-w-full max-h-full object-contain group-hover:scale-110 transition-transform duration-300"
                 />
               </div>
-              <span className="text-sm font-medium text-gray-900 text-center group-hover:text-[#ea290f] transition-colors">
+              <span className="text-sm font-medium text-gray-900 text-center group-hover:text-[#D4AF37] transition-colors">
                 {make}
               </span>
             </Link>
@@ -78,19 +78,19 @@ export default function BrandsPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-3xl md:text-4xl font-bold text-[#ea290f]">50+</div>
+              <div className="text-3xl md:text-4xl font-bold text-[#D4AF37]">50+</div>
               <div className="text-gray-600 mt-1">Vehicle Brands</div>
             </div>
             <div>
-              <div className="text-3xl md:text-4xl font-bold text-[#ea290f]">1M+</div>
+              <div className="text-3xl md:text-4xl font-bold text-[#D4AF37]">1M+</div>
               <div className="text-gray-600 mt-1">Parts Available</div>
             </div>
             <div>
-              <div className="text-3xl md:text-4xl font-bold text-[#ea290f]">100%</div>
+              <div className="text-3xl md:text-4xl font-bold text-[#D4AF37]">100%</div>
               <div className="text-gray-600 mt-1">Quality Guaranteed</div>
             </div>
             <div>
-              <div className="text-3xl md:text-4xl font-bold text-[#ea290f]">24/7</div>
+              <div className="text-3xl md:text-4xl font-bold text-[#D4AF37]">24/7</div>
               <div className="text-gray-600 mt-1">Customer Support</div>
             </div>
           </div>
@@ -98,7 +98,7 @@ export default function BrandsPage() {
       </section>
 
       {/* CTA */}
-      <section className="bg-gradient-to-r from-[#ea290f] to-[#c8240d] py-12 px-4">
+      <section className="bg-gradient-to-r from-[#D4AF37] to-[#B29026] py-12 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
             Can't Find Your Brand?
@@ -108,7 +108,7 @@ export default function BrandsPage() {
           </p>
           <Link
             href="/contact"
-            className="inline-flex items-center gap-2 bg-white text-[#ea290f] px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
+            className="inline-flex items-center gap-2 bg-white text-[#D4AF37] px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
           >
             Contact Us
             <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

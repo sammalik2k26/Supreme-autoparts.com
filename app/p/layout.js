@@ -23,7 +23,7 @@ export default function ProductLayout({ children }) {
         </div>
         <div className="border-t border-gray-100 px-4 py-3">
           <div className="max-w-7xl mx-auto">
-            <Link href="/" className="text-[#ea290f] hover:underline font-medium">
+            <Link href="/" className="text-[#D4AF37] hover:underline font-medium">
               ← Back to Home
             </Link>
           </div>

@@ -10,7 +10,7 @@ export default function CategoriesIndexPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 py-12">
-        <Link href="/" className="text-[#ea290f] hover:underline mb-6 inline-block">
+        <Link href="/" className="text-[#D4AF37] hover:underline mb-6 inline-block">
           ← Back to home
         </Link>
         <h1 className="text-3xl font-bold text-gray-900 mb-8">All Categories</h1>
@@ -21,7 +21,7 @@ export default function CategoriesIndexPage() {
               <Link
                 key={slug}
                 href={`/c/${slug}`}
-                className="group bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-[#ea290f] hover:shadow-lg transition-all"
+                className="group bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-[#D4AF37] hover:shadow-lg transition-all"
               >
                 <div className="aspect-square overflow-hidden bg-gray-100 flex items-center justify-center p-4">
                   <img

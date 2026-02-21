@@ -28,19 +28,19 @@ export default function ContactPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-[#0F0F0F]">
       {/* Header */}
-      <header className="bg-white border-b border-gray-200">
+      <header className="bg-[#0F0F0F] border-b border-[#D4AF37]/20">
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center">
             <img src="/logo.svg" alt="Supreme Auto Parts" className="h-10 md:h-12 w-auto" />
           </Link>
-          <Link href="/" className="text-[#ea290f] hover:underline font-medium">← Back to Home</Link>
+          <Link href="/" className="text-[#D4AF37] hover:underline font-medium">← Back to Home</Link>
         </div>
       </header>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-16">
+      <section className="bg-gradient-to-br from-[#1a1a1a] via-[#0F0F0F] to-[#1a1a1a] text-white py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <div className="inline-flex items-center justify-center w-16 h-16 bg-white/10 rounded-full mb-6">
             <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -62,13 +62,13 @@ export default function ContactPage() {
           <div className="grid sm:grid-cols-3 gap-4">
             {/* Email */}
             <a href="mailto:info@supreme-autoparts.com" className="group bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition-all hover:-translate-y-1">
-              <div className="w-14 h-14 bg-gradient-to-br from-[#ea290f] to-orange-500 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+              <div className="w-14 h-14 bg-gradient-to-br from-[#D4AF37] to-orange-500 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                 <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
               </div>
               <h3 className="text-gray-900 font-bold text-lg mb-1">Email Us</h3>
-              <p className="text-[#ea290f] text-sm font-medium">info@supreme-autoparts.com</p>
+              <p className="text-[#D4AF37] text-sm font-medium">info@supreme-autoparts.com</p>
             </a>
 
             {/* Phone */}
@@ -126,7 +126,7 @@ export default function ContactPage() {
                   href="https://www.google.com/maps/search/Columbus+OH" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 mt-3 text-[#ea290f] hover:text-orange-600 text-sm font-medium transition-colors"
+                  className="inline-flex items-center gap-2 mt-3 text-[#D4AF37] hover:text-orange-600 text-sm font-medium transition-colors"
                 >
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
@@ -185,7 +185,7 @@ export default function ContactPage() {
             <div className="lg:col-span-3">
               <div className="bg-white rounded-2xl shadow-lg p-8">
                 <div className="flex items-center gap-3 mb-6">
-                  <div className="w-12 h-12 bg-gradient-to-br from-[#ea290f] to-orange-500 rounded-xl flex items-center justify-center">
+                  <div className="w-12 h-12 bg-gradient-to-br from-[#D4AF37] to-orange-500 rounded-xl flex items-center justify-center">
                     <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
                     </svg>
@@ -206,7 +206,7 @@ export default function ContactPage() {
                         value={formData.name}
                         onChange={handleChange}
                         placeholder="John Smith"
-                        className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-[#ea290f] focus:border-[#ea290f] outline-none transition-all"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-[#D4AF37] focus:border-[#D4AF37] outline-none transition-all"
                         required
                       />
                     </div>
@@ -218,7 +218,7 @@ export default function ContactPage() {
                         value={formData.email}
                         onChange={handleChange}
                         placeholder="john@example.com"
-                        className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-[#ea290f] focus:border-[#ea290f] outline-none transition-all"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-[#D4AF37] focus:border-[#D4AF37] outline-none transition-all"
                         required
                       />
                     </div>
@@ -233,7 +233,7 @@ export default function ContactPage() {
                         value={formData.phone}
                         onChange={handleChange}
                         placeholder="(614) 555-1234"
-                        className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-[#ea290f] focus:border-[#ea290f] outline-none transition-all"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-[#D4AF37] focus:border-[#D4AF37] outline-none transition-all"
                       />
                     </div>
                     <div>
@@ -242,7 +242,7 @@ export default function ContactPage() {
                         name="subject"
                         value={formData.subject}
                         onChange={handleChange}
-                        className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-[#ea290f] focus:border-[#ea290f] outline-none transition-all bg-white"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-[#D4AF37] focus:border-[#D4AF37] outline-none transition-all bg-white"
                         required
                       >
                         <option value="">Select a topic</option>
@@ -265,7 +265,7 @@ export default function ContactPage() {
                       onChange={handleChange}
                       rows={5}
                       placeholder="Tell us how we can help..."
-                      className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-[#ea290f] focus:border-[#ea290f] outline-none transition-all resize-none"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-[#D4AF37] focus:border-[#D4AF37] outline-none transition-all resize-none"
                       required
                     />
                   </div>
@@ -273,7 +273,7 @@ export default function ContactPage() {
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full py-4 bg-[#ea290f] hover:bg-[#c8240d] text-white font-bold rounded-xl transition-all flex items-center justify-center gap-3 disabled:opacity-70 disabled:cursor-not-allowed"
+                    className="w-full py-4 bg-[#D4AF37] hover:bg-[#c8240d] text-white font-bold rounded-xl transition-all flex items-center justify-center gap-3 disabled:opacity-70 disabled:cursor-not-allowed"
                   >
                     {isSubmitting ? (
                       <>
@@ -339,7 +339,7 @@ export default function ContactPage() {
             ].map((faq, i) => (
               <div key={i} className="bg-gray-50 rounded-2xl p-6 hover:bg-gray-100 transition-colors">
                 <h3 className="text-gray-900 font-semibold mb-2 flex items-start gap-3">
-                  <span className="w-6 h-6 bg-[#ea290f] text-white rounded-full flex items-center justify-center text-xs shrink-0 mt-0.5">?</span>
+                  <span className="w-6 h-6 bg-[#D4AF37] text-white rounded-full flex items-center justify-center text-xs shrink-0 mt-0.5">?</span>
                   {faq.q}
                 </h3>
                 <p className="text-gray-600 text-sm pl-9">{faq.a}</p>

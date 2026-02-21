@@ -11,7 +11,7 @@ export default function TermsPage() {
       num: 1,
       title: 'Acceptance of Terms',
       icon: (
-        <svg className="w-5 h-5 text-[#ea290f]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-5 h-5 text-[#D4AF37]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
       ),
@@ -21,7 +21,7 @@ export default function TermsPage() {
       num: 2,
       title: 'Products and Services',
       icon: (
-        <svg className="w-5 h-5 text-[#ea290f]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-5 h-5 text-[#D4AF37]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
         </svg>
       ),
@@ -36,7 +36,7 @@ export default function TermsPage() {
           <Link href="/" className="flex items-center">
             <img src="/logo.svg" alt="Supreme Auto Parts" className="h-10 md:h-12 w-auto" />
           </Link>
-          <Link href="/" className="text-[#ea290f] hover:underline font-medium">← Back to Home</Link>
+          <Link href="/" className="text-[#D4AF37] hover:underline font-medium">← Back to Home</Link>
         </div>
       </header>
 
@@ -57,7 +57,7 @@ export default function TermsPage() {
         {/* Quick Navigation */}
         <div className="bg-white rounded-2xl shadow-lg p-6 mb-8">
           <h3 className="font-bold text-gray-900 mb-4 flex items-center gap-2">
-            <svg className="w-5 h-5 text-[#ea290f]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-5 h-5 text-[#D4AF37]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h7" />
             </svg>
             Quick Navigation
@@ -81,8 +81,8 @@ export default function TermsPage() {
         {/* Section 1 */}
         <div className="bg-white rounded-2xl shadow-lg p-8 mb-6 hover:shadow-xl transition-shadow">
           <div className="flex items-start gap-4 mb-4">
-            <div className="shrink-0 w-10 h-10 bg-[#ea290f]/10 rounded-lg flex items-center justify-center">
-              <svg className="w-5 h-5 text-[#ea290f]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="shrink-0 w-10 h-10 bg-[#D4AF37]/10 rounded-lg flex items-center justify-center">
+              <svg className="w-5 h-5 text-[#D4AF37]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
             </div>
@@ -96,8 +96,8 @@ export default function TermsPage() {
         {/* Section 2 */}
         <div className="bg-white rounded-2xl shadow-lg p-8 mb-6 hover:shadow-xl transition-shadow">
           <div className="flex items-start gap-4 mb-4">
-            <div className="shrink-0 w-10 h-10 bg-[#ea290f]/10 rounded-lg flex items-center justify-center">
-              <svg className="w-5 h-5 text-[#ea290f]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="shrink-0 w-10 h-10 bg-[#D4AF37]/10 rounded-lg flex items-center justify-center">
+              <svg className="w-5 h-5 text-[#D4AF37]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
               </svg>
             </div>
@@ -111,8 +111,8 @@ export default function TermsPage() {
         {/* Section 3 */}
         <div className="bg-white rounded-2xl shadow-lg p-8 mb-6 hover:shadow-xl transition-shadow">
           <div className="flex items-start gap-4 mb-4">
-            <div className="shrink-0 w-10 h-10 bg-[#ea290f]/10 rounded-lg flex items-center justify-center">
-              <svg className="w-5 h-5 text-[#ea290f]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="shrink-0 w-10 h-10 bg-[#D4AF37]/10 rounded-lg flex items-center justify-center">
+              <svg className="w-5 h-5 text-[#D4AF37]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
               </svg>
             </div>
@@ -136,8 +136,8 @@ export default function TermsPage() {
         {/* Section 4 */}
         <div className="bg-white rounded-2xl shadow-lg p-8 mb-6 hover:shadow-xl transition-shadow">
           <div className="flex items-start gap-4 mb-4">
-            <div className="shrink-0 w-10 h-10 bg-[#ea290f]/10 rounded-lg flex items-center justify-center">
-              <svg className="w-5 h-5 text-[#ea290f]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="shrink-0 w-10 h-10 bg-[#D4AF37]/10 rounded-lg flex items-center justify-center">
+              <svg className="w-5 h-5 text-[#D4AF37]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
               </svg>
             </div>
@@ -158,8 +158,8 @@ export default function TermsPage() {
         {/* Section 5 */}
         <div className="bg-white rounded-2xl shadow-lg p-8 mb-6 hover:shadow-xl transition-shadow">
           <div className="flex items-start gap-4 mb-4">
-            <div className="shrink-0 w-10 h-10 bg-[#ea290f]/10 rounded-lg flex items-center justify-center">
-              <svg className="w-5 h-5 text-[#ea290f]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="shrink-0 w-10 h-10 bg-[#D4AF37]/10 rounded-lg flex items-center justify-center">
+              <svg className="w-5 h-5 text-[#D4AF37]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
               </svg>
             </div>
@@ -167,7 +167,7 @@ export default function TermsPage() {
           </div>
           <p className="text-gray-600">
             Please refer to our{' '}
-            <Link href="/return-policy" className="text-[#ea290f] hover:underline font-medium inline-flex items-center gap-1">
+            <Link href="/return-policy" className="text-[#D4AF37] hover:underline font-medium inline-flex items-center gap-1">
               Return Policy
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
@@ -180,8 +180,8 @@ export default function TermsPage() {
         {/* Section 6 */}
         <div className="bg-white rounded-2xl shadow-lg p-8 mb-6 hover:shadow-xl transition-shadow">
           <div className="flex items-start gap-4 mb-4">
-            <div className="shrink-0 w-10 h-10 bg-[#ea290f]/10 rounded-lg flex items-center justify-center">
-              <svg className="w-5 h-5 text-[#ea290f]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="shrink-0 w-10 h-10 bg-[#D4AF37]/10 rounded-lg flex items-center justify-center">
+              <svg className="w-5 h-5 text-[#D4AF37]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
               </svg>
             </div>
@@ -197,8 +197,8 @@ export default function TermsPage() {
         {/* Section 7 */}
         <div className="bg-white rounded-2xl shadow-lg p-8 mb-6 hover:shadow-xl transition-shadow">
           <div className="flex items-start gap-4 mb-4">
-            <div className="shrink-0 w-10 h-10 bg-[#ea290f]/10 rounded-lg flex items-center justify-center">
-              <svg className="w-5 h-5 text-[#ea290f]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="shrink-0 w-10 h-10 bg-[#D4AF37]/10 rounded-lg flex items-center justify-center">
+              <svg className="w-5 h-5 text-[#D4AF37]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
               </svg>
             </div>
@@ -210,13 +210,13 @@ export default function TermsPage() {
         </div>
 
         {/* Contact Section */}
-        <div className="bg-gradient-to-r from-[#ea290f] to-[#c8240d] rounded-2xl shadow-lg p-8 text-white text-center">
+        <div className="bg-gradient-to-r from-[#D4AF37] to-[#c8240d] rounded-2xl shadow-lg p-8 text-white text-center">
           <svg className="w-12 h-12 mx-auto mb-4 opacity-90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
           <h2 className="text-2xl font-bold mb-2">Questions About These Terms?</h2>
           <p className="text-white/80 mb-4">Our team is here to clarify any concerns.</p>
-          <a href="mailto:info@supreme-autoparts.com" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-[#ea290f] font-semibold rounded-lg hover:bg-gray-100 transition-colors">
+          <a href="mailto:info@supreme-autoparts.com" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-[#D4AF37] font-semibold rounded-lg hover:bg-gray-100 transition-colors">
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
             </svg>
